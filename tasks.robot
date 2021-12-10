@@ -2,7 +2,7 @@
 Library           Collections
 Library           RPA.Robocorp.WorkItems
 Library           RPA.Browser.Selenium
-Task Teardown     Handle Teardown Actions
+Suite Teardown    Handle Teardown Actions
 
 *** Variables ***
 @{ERROR_MESSAGES}    @{EMPTY}

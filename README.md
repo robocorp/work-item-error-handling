@@ -26,14 +26,30 @@ In this case error messages are appended to global error messages list, which wi
 handled by the ``Suite Teardown`` at the end of the execution. These errors are labeled
 with an exception type **Business**.
 
+**Image.** Control Room run overview shows step 2 Business exception
+<img src="images/business_exception_overview.png" style="width:1024px; margin-bottom:20px">
+
+**Image.** Control Room view on exception details
+<img src="images/business_exception_details.png" style="width:1024px; margin-bottom:20px">
+
+**Image.** Control Room view on run console log
+<img src="images/business_exception_process_run.png" style="width:1024px; margin-bottom:20px">
+
 ### Task: Application and Business failures
 
 In addition to the ``Only business failures`` task this task will be using ``RPA.Browser.Selenium``
 library to cause uncaught exception on ``Click Element`` keyword which will be labeled with an
 exception type **Application**. All **Business** exceptions are also appended to the overall error message.
 
-## Exceptions in the Control Room
+**Image.** Control Room run overview shows step 2 Business exception
+<img src="images/application_exception_overview.png" style="width:1024px; margin-bottom:20px;">
 
-ATTACH IMAGE 1
+**Image.** Control Room view on exception details
+<img src="images/application_exception_details.png" style="width:1024px; margin-bottom:20px">
 
-ATTACH IMAGE 2
+**Image.** Control Room view on run console log
+<img src="images/application_exception_process_run.png" style="width:1024px; margin-bottom:20px">
+
+## Control room setup
+
+To see how to set up Control Room and understand more about how work items are used, see the following article: [Using work items](https://robocorp.com/docs/development-guide/control-room/data-pipeline).

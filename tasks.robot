@@ -75,10 +75,10 @@ Application and Business failures
     FOR    ${i}    IN RANGE    1    10
         #
         # Using "Run Keyword And Ignore Error" to prevent failures from "User Keyword" breaking
-        # the execution of the task. The status and error_msg from "User Keyword" execution
+        # the execution of the task. The ${status} and ${error_msg} from "User Keyword" execution
         # is received as return values.
         #
-        # On FAIL the error_msg is appended to global @{ERROR_MESSAGES} list which will be
+        # On FAIL the ${error_msg} is appended to global @{ERROR_MESSAGES} list which will be
         # processed at Suite Teardown step which handles overall task error reporting.
         #
         ${status}    ${error_msg}=    Run Keyword And Ignore Error    User Keyword    ${i}

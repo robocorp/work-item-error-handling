@@ -27,7 +27,7 @@ Handle Teardown Actions
         ...    FAILED
         ...    exception_type=APPLICATION
         ...    code=1001
-        ...    message=error_message
+        ...    message=${error_message}
     ELSE IF    $business_error_string
         Release Input Work Item
         ...    FAILED

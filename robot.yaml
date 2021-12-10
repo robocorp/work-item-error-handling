@@ -6,9 +6,6 @@ tasks:
   Passing Execution:
     robotTaskName: Passing Execution
 
-  python:
-    shell: python task.py
-
 condaConfigFile: conda.yaml
 artifactsDir: output
 PATH:

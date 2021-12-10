@@ -1,0 +1,19 @@
+tasks:
+  Only business failures:
+    robotTaskName: Only business failures
+  Application and Business failures:
+    robotTaskName: Application and Business failures
+  Passing Execution:
+    robotTaskName: Passing Execution
+
+  python:
+    shell: python task.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+PATH:
+  - .
+PYTHONPATH:
+  - .
+ignoreFiles:
+  - .gitignore

@@ -2,6 +2,14 @@
 
 Example is based on concept of [Suite Teardown](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html#suite-setup-and-teardown) which is a ``Robot Framework`` execution step which will be executed at the end of Robot execution.
 
+# Table of Contents
+
+- [Robot Overview](https://github.com/robocorp/work-item-error-handling#robot-overview)
+- [Task: Passing Execution](https://github.com/robocorp/work-item-error-handling#task-passing-execution)
+- [Task: Only Business Failures](https://github.com/robocorp/work-item-error-handling#task-only-business-failures)
+- [Task: Application and Business Failures](https://github.com/robocorp/work-item-error-handling#task-application-and-business-failures)
+- [Control Room Setup](https://github.com/robocorp/work-item-error-handling#control-room-setup)
+
 ## Robot overview
 
 Robot has been divided into three tasks:

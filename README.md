@@ -24,13 +24,13 @@ errors should be handled for that keyword.
 
 In this case error messages are appended to global error messages list, which will be
 handled by the ``Suite Teardown`` at the end of the execution. These errors are labeled
-as an **Business Error**.
+with an exception type **Business**.
 
 ### Task: Application and Business failures
 
 In addition to the ``Only business failures`` task this task will be using ``RPA.Browser.Selenium``
-library to cause uncaught exception on ``Click Element`` keyword which will be labeled as an
-**Application Error**. All **Business Errors** are also appended to the overall error message.
+library to cause uncaught exception on ``Click Element`` keyword which will be labeled with an
+exception type **Application**. All **Business** exceptions are also appended to the overall error message.
 
 ## Exceptions in the Control Room
 
